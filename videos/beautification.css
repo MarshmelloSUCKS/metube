@@ -1,0 +1,194 @@
+html {
+    min-height: 100%;
+}
+body {
+    background: rgb(0,46,255);
+    background: -moz-linear-gradient(158deg, rgba(0,46,255,0.060644240606398836) 0%, rgba(0,46,255,0.057843120158219574) 80%, rgba(0,46,255,0.40518205573244925) 100%);
+    background: -webkit-linear-gradient(158deg, rgba(0,46,255,0.060644240606398836) 0%, rgba(0,46,255,0.057843120158219574) 80%, rgba(0,46,255,0.40518205573244925) 100%);
+    background: linear-gradient(158deg, rgba(0,46,255,0.060644240606398836) 0%, rgba(0,46,255,0.057843120158219574) 80%, rgba(0,46,255,0.40518205573244925) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#002eff",endColorstr="#002eff",GradientType=1); 
+    min-height: 100%
+}
+.container {
+    width: 980px;
+    margin: auto;
+}
+.header {
+    margin: 25px 0px 5px 0px;
+    border: 3px solid rgb(32, 54, 255);
+    text-align: center;
+    background: rgb(241, 242, 255);
+    width: 99.5%;
+    text-align: center;
+}
+.linkbar {
+    text-align: center;
+    background: rgb(49, 70, 252);
+    color: white;
+    width: 100%;
+    display: inline-block;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.links {
+    margin: 0px 7px 0px 7px;
+}
+.links a {
+    color: white;
+}
+.contentbox {
+    display: flex;
+    display: -webkit-flex; /*Because Apple wants to be special, I guess*/
+}
+.fullbox {
+    margin: 3px 0px 3px 0px;
+    background: white;
+    color: black;
+    font-family: Arial, "Helvetica Neue", sans-serif;
+    border: 3px solid rgb(32, 54, 255);
+    width: 99.5%;
+    line-height: 20px;
+    text-align: center;
+    overflow: auto;
+    padding: 3px 0px 3px 0px;
+}
+.indextitle {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.channelbox {
+    width: 200px;
+    max-height: 300px;
+    padding: 3px 5px 3px 5px;
+    text-align: center;
+    display: inline-block;
+}
+.videobox {
+    width: 300px;
+    max-height: 300px;
+    padding: 3px 5px 3px 5px;
+    text-align: center;
+    display: inline-block;
+}
+.videotitle {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.videoartist {
+    font-size: 12px;
+    text-align: center;
+    line-height: 0px;
+}
+.channelinfo {
+    text-align: left;
+}
+.avitar {
+float: left;
+margin: 5px 5px 5px 5px;
+}
+.channelname {
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 5px;
+    width: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.channelDescription {
+    text-align: left;
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 20px;
+}
+.content {
+    margin: 3px 1px 3px 0px;
+    background: white;
+    color: black;
+    font-family: Arial, "Helvetica Neue", sans-serif;
+    border: 3px solid rgb(32, 54, 255);
+    float: left;
+    width: 75%;
+    line-height: 15px;
+}
+.title {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 0px;
+}
+.artist {
+    font-size: 13px;
+    line-height: 0px;
+    text-align: center;
+}
+.video {
+    text-align: center;
+    margin: auto;
+    padding: 5px 0px 5px 0px;
+}
+.headline {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0px;
+}
+.description {
+    font-size: 14px;
+    text-align: center;
+    line-height: 8px;
+}
+.sidebar {
+    margin: 3px 0px 3px 1px;
+    background: white;
+    color: black;
+    font-family: Arial, "Helvetica Neue", sans-serif;
+    border: 3px solid rgb(32, 54, 255);
+    float: right;
+    line-height: 15px;
+    width: 25%;
+    padding-right: 3px;
+    padding-left: 3px;
+    display: flex;
+  flex-direction: column;
+}
+.sidecontent {
+    overflow: hidden;
+}
+.sidethumb {
+    float: right;
+}
+.sidetitle {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
+.sideartist {
+    font-size: 12px;
+    text-align: left;
+    line-height: 0px;
+}
+.bottom {
+    /*Ah yes, the div element named after me*/
+    margin: 5px 0px 25px 0px;
+    border: 3px solid rgb(32, 54, 255);
+    background: rgb(241, 242, 255);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    float: left;
+    width: 99.5%;
+    line-height: 5px;
+    font-size: 12px;
+}
+.neolink {
+  text-align: center;
+  margin-top: auto;
+  padding: 3px 0px 3px 0px;
+}
+.paragraph {
+    line-height: 25px;
+}
